@@ -50,6 +50,5 @@ int main(){
          Ejercicio 1.
        - Solo el proceso raíz (getpid() == pid_raiz) imprime el total final.*/
 
-    sleep(10);
     return 0;
 }
