@@ -12,9 +12,9 @@ El proyecto abarca desde la creación de estructuras lineales simples hasta árb
 * **`ejemplo2.c`**: Cadena lineal de $N$ procesos ($N=4$). Los procesos comunican su estado de salida de abajo hacia arriba con `wait()` y `exit()` para retornar el total de la línea.
 * **`escalonado.c`**: Construcción de un árbol de procesos en forma escalonada/triangular. Genera un total de $\frac{(N + 1)(N + 2)}{2}$ procesos en la jerarquía.
 * **`flor.c`**: Estructura ramificada compleja dividida en tres secciones:
-  * **Tallo (`TALLO = 5`)**: Cadena de procesos base.
-  * **Flores (`FLORES = 3`)**: Subcadena de centros de flor generada al final del tallo.
-  * **Pétalos (`PETALOS = 5`)**: Procesos hoja asociados a cada centro de flor.
+  * **Tallo**: Cadena de procesos base.
+  * **Flores**: Subcadena de centros de flor generada al final del tallo.
+  * **Pétalos**: Procesos hoja asociados a cada centro de flor.
 
 ---
 
